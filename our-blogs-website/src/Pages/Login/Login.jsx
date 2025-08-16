@@ -1,9 +1,23 @@
 import React from 'react';
+import signupBg from "../assets/Signup.jpg";
 import './Login.css'; // Assuming you have a CSS file for styling
 function Login() 
 {
     return(
-        <div className="login-page">
+        <div
+  className="login-page"
+  style={{ 
+    backgroundImage: `url(${signupBg})`,
+    width: '100%',
+    height: '100vh',
+    backgroundPosition: 'center',
+    backgroundSize: 'cover',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center'
+  }}
+>
+
             <form className="login-form d-flex flex-column row-gap-2 justify-content-center" >
                 <h1>Please Login</h1>
                 <div className="form-floating mb-3">
