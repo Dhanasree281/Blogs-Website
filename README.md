@@ -29,7 +29,7 @@ A responsive Blogs Website built using React.js that allows users to view and re
 
 ## Installation
 ```bash
-git clone https://github.com/your-username/BlogsWebsite
+git clone https://github.com/Dhanasree281/BlogsWebsite
 cd BlogsWebsite
 npm install
 npm start
